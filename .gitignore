@@ -106,5 +106,5 @@ dist
 
 #ignore
 .idea/
-.config/
-.configs/
+config/
+configs/
