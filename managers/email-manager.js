@@ -13,7 +13,7 @@ const email = async (to, subject, html) => {
     await transporter.sendMail({
         from: '"Sunny School" <'+config.user+'>',
         to: to,
-        subject: subject,
+        subject:'Շնորհակալություն գրանցման համար',
         html: html
     });
 };

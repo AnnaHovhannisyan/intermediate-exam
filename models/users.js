@@ -6,6 +6,6 @@ const UserSchema = new Schema({
     password: String,
 
 }, {versionKey: false, timestamps: true});
-UserSchema.set('collection', 'users');
+
 
 module.exports = mongoose.model('Users', UserSchema);
